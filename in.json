@@ -1,0 +1,118 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+     "context_set": ""
+    },
+    {"tag": "age",
+     "patterns": ["how old", "how old is Charlie", "what is your age", "how old are you", "age?"],
+     "responses": ["I am 21 years old!", "21 years young!"],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?"],
+     "responses": ["You can call me Charlie.", "I'm Charlie!", "My name is Charlie"],
+     "context_set": ""
+    },
+    {"tag": "poem",
+     "patterns": ["can you tell me a poem?", "do you know a poem", "whats your favourite poem", "I want to know a short poem"],
+     "responses": ["How doth the little crocodile, Improve his shining tail, And pour the waters of the Nile, On every golden scale! How cheerfully he seems to grin, How neatly spreads his claws, And welcomes little fishes in, With gently smiling jaws!", "The forest is the town of trees Where they live quite at their ease, With their neighbors at their side, Just as we in cities wide.", "Hey diddle diddle, The Cat and the fiddle, The Cow jumped over the moon, The little Dog laughed to see such sport, And the Dish ran away with the Spoon."],
+     "context_set": ""
+    },
+    {"tag": "joke",
+     "patterns": ["I am bored, tell me a joke", "do you know a joke", "what do you find funny"],
+     "responses": ["What do you call a boomerang that doesnt come back? A stick", "What does a cloud wear under his raincoat? Thunderwear.", "What did one toilet say to the other? You look a bit flushed"],
+     "context_set": ""
+    },
+    {"tag": "depressive",
+    "patterns": ["I have been feeling more and more down. I have started having trouble sleeping due to panic attacks, but they are almost never triggered by something that I know of.", "Everything makes me sad"],
+    "responses": ["Your question is a fascinating one!As humans we have the ability to reflect on situations in our lives.Even if nothing currently goes on in a particular moment, its possible youre reflecting on a serious or upsetting matter.And, our emotions linger within us. Just because a particular moment feels calm, inside your feelings may be the sense of a strong unsettled emotion from the recent past.Good for you to be aware of your own sensitivity to living with awareness of your moods and thoughts."],
+    "context_set": ""
+    },
+    {"tag": "depression",
+    "patterns": ["Im facing severe depression and anxiety and I just feel like Im going through a lot."," This really distracts me and I cant get my mind off the things that are bothering me.    How do I overcome this anxierty and depression?"],
+    "responses": ["Working with a great therapist who can help you learn ways to cope might be beneficial to you. Sometimes just the act of being able to talk about things with a nonjudgmental person helps take some of the burden off of you. A therapist can help you change your thought patterns and teach you coping skills to reduce your symptoms.", "Anxiety and depression are often linked. I don't consider them as diseases. Depression is a symptom of deep hurts to the sense of self that leaves a person feeling shamed. Anxiety is a symptom of not being given the proper emotional resources to handle the problems of life. It is also the result of being taught that life is a dangerous place that can't be managed."],
+    "context_set": ""
+    },
+    {"tag": "worry",
+    "patterns": ["How can I get to a place where I can be content from day to day?"],
+    "responses": ["One thing that comes to mind is making a list of some things that happen each day. It could be that there are things that are affecting how upset you are, but because so many other things are going on, you may not notice.Another idea to try is to keep a list for a month of one good thing that happened each day. This way, when you're having a rough day, you have a list to think of and take a look at\", \"Look up online what the local hospital offers to people.  google some of the key words you just wrote here, like depression and counseling, low-cost counseling.Did your primary physician tell you their reason to not help you? If not, then ask the person to tell you their reasoning. "],
+    "context_set": ""
+    },
+    {
+    "tag": "diagnosis",
+    "patterns": ["I suffer from  ADHD, anxiety disorder, and depression. It has been difficult to find a doctor in my area and my primary physician won't help. What would you suggest I do?", "I have depression what should I do"],
+    "responses": ["Look up online what the local hospital offers to people.  google some of the key words you just wrote here, like depression and counseling, low-cost counseling.Did your primary physician tell you their reason to not help you? If not, then ask the person to tell you their reasoning." ,"I would check out agencies that offer affordable counseling based on your income or very low cost counseling sessions, i.e., Pacific Clinics, Hathaway Sycamore, Pasadena Mental Health Center, Burbank Family Center. If you google affordable or low cost therapy in your particular area you will find resources to help you."],
+    "context_set": ""
+    },
+    {
+    "tag": "Social anxiety",
+    "patterns": ["When I'm in large crowds I get angry and I just can't deal with people. I don't really like other people (I prefer animals) they make me nervous and scared.", "Big crowd makes me anxious", "I dont like speaking in public"],
+    "responses": ["Being tired can really affect almost everyone's ability to work through things that make them sad, confused, or angry, among other emotions. If you're having difficulty sleeping, try to get into a habit of going to bed and waking up close to the same time every day. Also consider only using the bed for sleeping so your brain knows that it's time to sleep when you are in bed. If you are not sleeping while you are in bed, consider getting up and reading a book or doing something to make you tired before going back to bed. Hopefully you'll be able to establish a pattern."],
+    "context_set": ""
+    },
+    {
+    "tag": "Fears",
+    "patterns": ["I have fear. How can I overcome it?"],
+    "responses": ["I am so sorry you are struggling! I do think it's a good idea to share your feelings with your parents and perhaps get some help connecting with a counselor or therapist if you feel that might help. There are lots of ways to tell them, depending on your relationship. Or, some folks will write a letter, or even send a text. The most important thing is that you tell someone you trust so you don't feel so miserable. I hope this helps.Best of luck."],
+    "context_set": ""
+    },
+    {"tag": "anxiety",
+    "patterns": ["I have anxieties about everyday stressors, i.e. interacting with others", "I have anxiety", "Talking to people makes me anxious"],
+    "responses": ["It is challenging to maintain motivation at all times, anxiety and depression can set in which can make interacting with others a struggle, it can lead us to do things that make us not feel good and we become isolated. This ends up feeding into a cycle that maintains the anxiety/depression loop and can be really challenging to step out of it.\"One of the first steps is to manage anxiety and depression symptoms are to establish a good self-care routine.Start with the most basic things: Eating balanced meals, sleeping at from 6-8 hours and exercise at least 30 minutes a day. These will help you to regulate the chemical imbalance that affects your mood, plus exercising gives you time to vent and be distracted from your thoughts."],
+    "context_set": ""
+    },
+    {
+    "tag": "nervous",
+    "patterns": ["When I'm around people, I sometimes think someone has made a comment to me or asked me to do something. I will be focusing on something else and then randomly think I hear something about me. I never know if it was actually said.", "people make me nervous", "I am nervous", "I get nervous when I go to school"],
+    "responses": ["It sounds like you are feeling like things are hopeless and out of control and you're not sure what to do about it. If you can find a competent therapist to work with, together you may be able to come up with some strategies for alleviating the overwhelming distress that you are experiencing and gain some insight into what may be contributing to these challenges. Additionally, a therapist may be able to support you in getting back on your feet in regards to work, a place to live, and showing up with your partner in a way that will be more satisfying to you."],
+    "context_set": ""
+    },
+    {
+    "tag": "shyness",
+    "patterns": ["I am a really shy person. How can I get more confident?", "I am shy", "I dont like talking to people"],
+    "responses": ["Thanks for sharing your concern! I think you'd be surprised if you knew how many people feel the same way. Being in crowds can provoke anxiety. I'd recommend starting by writing down your self-talk. That might help! Take care!"],
+    "context_set": ""
+    },
+    {
+    "tag": "anxiety attack",
+    "patterns": ["I shake and have panic attacks.", "I have anxiety", "I get anxious easily", "I get anxious a lot"],
+    "responses": ["Normal can be an insidious word to use because it can undermine your sense of worth. It implies there's one particular way you should be behaving and can leave you feeling crappy and abnormal  if you're not behaving according to that prescribed standard. Instead, what I'd recommend is to pay attention to your emotional experiences when you're attending therapy. Explore your feelings and thoughts without judgement and try to reflect and understand what's going on that's causing you anxiety. Once you figure out the underlying meaning of the anxiety, you can figure out a way to handle it and action steps to take to diminish it."],
+    "context_set": ""
+    },
+    {
+    "tag": "anxiety fear",
+    "patterns": ["I have a fear of something and I want to face that fear to overcome it, but I don't know how. What can I do?"],
+    "responses": ["It is totally normal - you have a lot riding on this and you're invested! Think about why you feel so shaky - is it something about the therapist or their style? If so, it would be a good idea to talk with them about it so you feel more at ease. In any case bringing up your feelings about therapy in therapy is totally appropriate and even necessary. Good luck!"],
+    "context_set": ""
+    },
+    {
+    "tag": "anger-management",
+    "patterns": ["I get angry easily ", "Sometimes people make me angry", "I have fights with my mom"],
+    "responses": ["This can be really anxiety-producing when you have not felt it before. It may be helpful to work through some of this with a local therapist so you can get more specific ideas.Some other things that come to my mind are maybe talking about spending about 10 minutes or so discussing how you are feeling and seeing if your partner is willing to listen. Then you could ask questions about how she would react if you were doing something she did not like. This allows you to react to information she is actually giving you rather than your perceptions that sound like they are different than what she is trying to tell you. This gives you the power to receive the messages that she is sending to you.I would also wonder where you have learned that there wasn't much good out there for you and how you can stay present in the moment when you are with your girlfriend and see that she wants to be there with you. Perhaps you could look at what makes you feel emotionally safe and trusting with her and focus on that. You could even remind yourself \"okay, I'm here with [name of girlfriend] and this is okay when I'm with her.\"We all have different levels of defenses in situations in which different people. It's common for people to see these things as black and white (either totally open or very self-protective. In reality, it's much more like a rainbow and the different shades of color that are available in the rainbow spectrum of white light (it's not really Just red, orange, yellow, green, blue, indigo, violet that we all know, but an infinite spectrum of shades of colors that fade from one into the next). You can change your level of defensiveness with your girlfriend depending upon the location you are in, the mood you are both in, the subject, etc. There are infinite numbers of choices and you can experiment.Another thing that could help is to communicate about communication. If one of you uses a phrase that triggers something from earlier in your life or is really uncomfortable, you could discuss that. If she says certain things that make you feel really comfortable, you could discuss that as well.Hopefully you can learn more about yourselves and each other at the same time."],
+    "context_set": ""
+    },
+    {
+    "tag": "irritaation",
+    "patterns": ["The sounds of eating and breathing gives me headache mostly mouth breathing and snoring. It makes me angry, and I want to solve it myself.", "A lot of things irritate me", "I am irritated a lot times"],
+    "responses": ["Hey! I am so impressed with your efforts to ask questions, to figure out how to change the messages that you hear (and say to yourself), and to get support! And it sounds like you want to make some changes in your life!"],
+    "context_set": ""
+    },
+    {
+    "tag": "nightmares",
+    "patterns": ["I have been having horrendous nightmares this whole month.", "I have nightmares", "I am scared after a nightmare"],
+    "responses": ["First I think we have to acknowledge that you are doing something amazing.You are putting yourself out there and becoming a Water Safety Instructor. We often times will focus on the negative and forget about the positive. Next, you had an incident where someone pointed something out which may have caused embarrassment. Whether or not it was malicious on his part I think the important thing to focus on is what is called Common Humanity. Common Humanity is one of the three elements of self-compassion. Common humanity essentially recognizes that suffering and personal inadequacy is part of the shared human experience. While you may have had this embarrassing moment at this time, that boy may have had an embarrassing moment another day. We all have embarrassing moments.\u00c2 When we recognize that we do not suffer in isolation then we are able to move past that suffering. Additionally another element to self-compassion is self-kindness.My question is why must you forgive yourself? Rather, be kind to yourself for learning an amazing new talent."],
+    "context_set": ""
+    },
+    {
+    "tag": "children-adolescents",
+    "patterns": ["I've been bullied for years and the teachers have done nothing about it.", "How can I deal with being bullied at school when the teachers won't help?", "I am bullied and that scares me"],
+    "responses": ["I can relate! When things are going badly, I feel like my life has always been and will always be that way. (But I also do this when things are going well. That is, I forget how good things can turn bad. Personally, to\navoid this emotional roller-coaster, I try and heed the famous advice by author and feminist Rita Mae Brown: \"One of the keys to happiness is a bad memory.","So maybe this weakness of your for forgetting is really a strength! It sounds a lot like living in the moment to me. "],
+    "context_set": ""
+    }]
+}
